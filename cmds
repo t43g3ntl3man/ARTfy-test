@@ -1,1 +1,1 @@
-sudo geth --rpc --rpcport 8545 --rpccorsdomain="http://remix.ethereum.org" --rpcapi web3,eth,debug,personal,net --vmdebug  --dev console --nousb
+sudo geth --rpc --rpcport 8545 --rpccorsdomain="*" --rpcapi web3,eth,debug,personal,net --vmdebug  --dev console --nousb
